@@ -382,7 +382,6 @@
       }
   }
   .d-brand-contract-bg{
-    /*width:100%;*/
     min-height:500px;
     background:url(../../assets/footer-bg.jpg) no-repeat center center;
     padding:20px;
