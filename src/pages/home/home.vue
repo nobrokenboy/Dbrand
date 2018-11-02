@@ -383,8 +383,8 @@
   }
   .d-brand-contract-bg{
     /*width:100%;*/
-    min-height:300px;
-    background:url(https://scontent-hkg3-1.cdninstagram.com/vp/10b78274dd2eae437e62543818732904/5C70C102/t51.2885-15/sh0.08/e35/s640x640/11356586_1636324749989174_1836287826_n.jpg) no-repeat center center;
+    min-height:500px;
+    background:url(../../assets/footer-bg.jpg) no-repeat center center;
     padding:20px;
     text-align:center;
     p:not(:first-child){
