@@ -1,0 +1,24 @@
+/*
+*  常见的工具类
+*/
+.hidden{
+  width:100%;
+  height:100%;
+  overflow:hidden;
+}
+.hide{
+  display:none;
+}
+/*浮动*/
+.fl{
+  float:left;
+}
+.fr{
+  float:right;
+}
+
+/*清除浮动*/
+.clearfix{
+  @include clearfix;
+}
+

@@ -1,0 +1,11 @@
+@mixin clearfix(){
+  *zoom:1;
+  &:after{
+    display:block;
+    visibility:hidden;
+    clear:both;
+    height:0;
+    font-size:0;
+    content:"";
+  }
+}

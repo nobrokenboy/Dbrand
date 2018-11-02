@@ -1,0 +1,56 @@
+
+
+@mixin calc-layout($type){
+
+
+  @if($type==base){
+      .d-brand-#{$type}{
+        display:flex;
+        width:100%;
+        .d-brand-main{
+          width:100%;
+        }
+      }
+
+    }
+  @if($type==hasleft){
+      .d-brand-#{$type}{
+        display:flex;
+        width:100%;
+        .d-brand-left{
+          width:$fixed-width-base;
+          height:100%;
+        }
+        .d-brand-main{
+          flex:1;
+          margin-left:15px;
+        }
+      }
+
+    }
+
+  @if($type==hasright){
+      .d-brand-#{$type}{
+        display:flex;
+        width:100%;
+        .d-brand-main{
+          flex:1;
+          margin-left:15px;
+        }
+        .d-brand-right{
+          width:$fixed-width-base;
+          height:100%;
+        }
+
+      }
+
+    }
+
+
+}
+@mixin make-layout(){
+  @include calc-layout(base);
+  @include calc-layout(hasleft);
+  @include calc-layout(hasright);
+
+}

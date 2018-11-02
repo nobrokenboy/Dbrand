@@ -1,0 +1,53 @@
+*{
+  box-sizing:border-box;
+}
+html,body{
+  width:100%;
+  font-family:'Microsoft Yahei';
+  background:#eee;
+}
+.hidden{
+  width:100%;
+  height:100%;
+  overflow:hidden;
+}
+.hide{
+  display:none;
+}
+/*浮动*/
+.fl{
+  float:left;
+}
+.fr{
+  float:right;
+}
+/*清除浮动*/
+.clear{
+  clear:both;
+  overflow:hidden;
+  height:0;
+  font-size:0;
+}
+.clearfix{
+  *zoom:1;
+}
+.clearfix:after{
+  display:block;
+  visibility:hidden;
+  clear:both;
+  height:0;
+  font-size:0;
+  content:"";
+}
+
+@media all and (max-width:938px) {
+
+  /*.d-brand-content{*/
+    /*width:100%;*/
+  /*}*/
+}
+@media all and (min-width:938px) {
+    .d-brand-page{
+      min-width:1600px;
+    }
+}

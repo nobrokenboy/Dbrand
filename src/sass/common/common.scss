@@ -1,0 +1,19 @@
+html,body{
+  width:100%;
+  font-family:'Microsoft Yahei';
+  background:#fff;
+}
+p{
+  line-height:1.5;
+}
+@media all and (max-width:938px) {
+
+  /*.d-brand-content{*/
+    /*width:100%;*/
+  /*}*/
+}
+@media all and (min-width:938px) {
+    .d-brand-page{
+      min-width:1600px;
+    }
+}
